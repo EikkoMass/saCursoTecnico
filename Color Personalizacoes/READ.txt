@@ -8,5 +8,6 @@ Para manusear tal projeto é necessário conhecimento em:
 
 
 //Projeto atribuido pela rede de ensino Sesi Senai Norte
+	O objetivo do projeto seria automatizar o processo de produção de uma estamparia fictícia denominada 'Color Personalizações' 
 
 Tenha um bom proveito!
