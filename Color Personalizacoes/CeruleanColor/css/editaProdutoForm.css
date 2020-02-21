@@ -1,0 +1,331 @@
+@font-face {
+    font-family: "Staatliches";
+    src: url('../fonts/Staatliches.ttf');
+    }
+    
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: "Staatliches", sans-serif;
+      color: #597eaa;
+    }
+    
+    html, body{
+      width: 100%;
+      height: 100%;
+      background-color: #597eaa;
+    }
+    
+    
+    main{
+      height: 78%;
+      width: 100%;
+    }
+    
+    header{
+      background-color: #085394;
+      height: 15%;
+      width: 100%;
+    }
+    
+    header p{
+      float: left;
+      margin-left: 2%;
+      margin-top: 2%;
+      color: white;
+    }
+    
+    
+    .locais{
+      width: 18%;
+      height:370px;
+      background-color: white;
+      border-radius: 20px;
+      margin: 10px;
+      margin-top: 50px;
+      float: left;
+      border: 3px solid white;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.1);
+    text-align: center;
+    }
+    
+    .locais p{
+      margin-top: 40px;
+      font-size: 28px;
+    }
+    
+    .locais:hover{
+      border: 3px solid rgb(172, 208, 249, 0.8);
+      transition: 0.4s;
+      background-color: #f2f2f2;
+    }
+    
+    #aordem{
+      margin-left: 30px;
+    }
+    
+    .imgs{
+      width: 150px;
+      height: 150px;
+      margin-top: 80px;
+    
+    }
+    #LogoPrincipal{
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      top: 25px;
+      margin-left: 45.8%;
+    }
+    #saia{
+      width: 40px;
+      height: 40px;
+      float: right;
+      margin: 10px;
+    
+    }
+    
+    #local1{
+        margin-left: 152px;
+    }
+    
+    
+    
+    h2{
+        color: white;
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    label{
+      font-size: 25px;
+      margin-left: 12%;
+    }
+    .caixas{
+      border-radius: 45px;
+      padding: 6px 10px;
+      width: 240px;
+      border: 2px solid #adadad;
+      margin-top: 2%;
+      font-size: 18px;
+      margin-left: 2%;
+    
+    }
+    #nome{
+      margin-top: 30px;
+      margin-left: 113px;
+      width: 220px;
+      color: black;
+      font-family: arial;
+    
+    }
+    #categoria{
+      margin-left: 69px;
+      width: 235px;
+     color: #597eaa;
+     font-family: arial, sans-serif;
+    
+    
+    }
+    #fornecedor{
+      margin-left: 50px;
+      width: 118px;
+      color: #597eaa;
+      font-family: arial, sans-serif;
+    }
+    #precoUN{
+      width: 100px;
+      margin-left:25px;
+      color: black;
+      font-family: arial;
+    
+    
+    }
+    
+    .caixas:focus{
+      outline: 0;
+      transition: 0.3s;
+      border: 2px solid #70d0ef;
+    }
+    #corpo{
+      width: 70%;
+      background-color: white;
+      height: 80%;
+      margin-left: 15.2%;
+      border-radius: 25px 25px 25px  25px;
+      border: 2px solid white;
+      margin-top: 15px;
+    }
+    
+    
+    #registrar{
+      border: none;
+      background:    #93c47d;
+    border-radius: 1000px;
+    box-shadow:    0 3px #6aa84f;
+    padding:       5px 80px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 24px/1 "Calibri", sans-serif;
+    text-align:    center;
+    margin-left: 250px;
+    margin-top: 30px;
+    cursor: pointer;
+    }
+    
+    #registrar:hover{
+      background:    #93d47d;
+    }
+    
+    #baseCorpo{
+      margin-left: 10%;
+    }
+    .formato{
+      height: 20px;
+      width: 20px;
+    }
+    #apagaform1, #apagaform2{
+      float: right;
+      margin-right: 5px;
+    }
+    
+    #editaform1, #editaform2{
+      float: left;
+      margin-left: 5px;
+    }
+        .icons{
+          height: 20px;
+          width: 20px;
+        }
+    
+        .buttonEditar, .buttonApagar{
+          border: none;
+          background-color: transparent;
+    
+        }
+    
+    
+    #busca{
+      margin-left: 16%;
+    }
+    
+    h1{
+      margin-top: 20px;
+      position: absolute;
+      color: #597eaa;
+      margin-left: 340px;
+    }
+    #nomeBusca{
+      margin-top: 110px;
+      border-radius: 20px 0 0 20px;
+      padding: 4px 6px;
+      width: 170px;
+      border: 2px solid #597eaa;
+      color: black;
+      font-family: arial;
+      height: 16px;
+    
+    
+    }
+    #nomeBusca:focus{
+      outline: 0;
+      transition: 0.3s;
+      border: 2px solid #70d0ef;
+    }
+    
+    
+    
+    #pesquisa{
+      width: 20px;
+      height: 17px;
+      margin-top: 4px;
+    }
+    #pesquisa:hover{
+      filter: brightness(100);
+      transition: 0.4s;
+    }
+    #botaoPesquisa{
+      border: 2px solid #597eaa;
+      border-radius: 0 20px 20px 0;
+      padding: 0 4px;
+      background-color: white;
+      margin-top: 15px;
+      position: relative;
+      top: 4px;
+      left: -5px;
+      border-left: none;
+      height: 28px;
+    }
+    #botaoPesquisa:focus{
+      outline: 0;
+    }
+    #botaoPesquisa:hover{
+      border: 2px solid #70d0ef;
+      border-left: none;
+      background-color: #597eaa;
+      transition: 0.4s;
+    }
+    #fieldset{
+      height: 80%;
+      margin-left: 15.2%;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      border-radius: 0 0 25px 25px;
+      border: 2px solid white;
+      background-color: white;
+      width: 69.9%;
+    }
+    #linha{
+      height: 1%;
+      width: 80%;
+      background-color: #597eaa;
+      border-radius: 20px;
+      margin-left: 120px;
+    }
+    
+    
+    #th1{
+      border-radius: 20px 0 0 0;
+      border-top: 2px solid white;
+    }
+    #th6{
+      border-radius: 0 20px 0 0px;
+      border-top: 2px solid white;
+    }
+    #tabela{
+      border-radius: 25px;
+      background-color: #597eaa;
+      height: 200px;
+      width: 90%;
+      padding: 20px;
+      margin-top: -50px;
+      margin-left: 5%;
+    }
+    .thborder{
+      color: #597eaa;
+      background-color: white;
+      padding: 10px;
+    }
+    
+    
+    .tdborder{
+      color: white;
+      text-align: center;
+      border: 2px solid white;
+      font-size: 15px;
+    }
+    .boximg{
+      margin-left: 16px;
+    
+    }
+    
+    #rodape{
+      height: 8%;
+      width: 80%;
+      background-color: #085394;
+      position: fixed;
+      margin-left: 10%;
+      border-radius: 20px 20px 0 0;
+    }
+    

@@ -1,0 +1,311 @@
+@font-face {
+    font-family: Staatliches;
+    src: url('../fonts/Staatliches.ttf');
+    }
+    
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: "Staatliches", sans-serif;
+      color: #597eaa;
+    }
+    
+    html, body{
+      width: 100%;
+      height: 100%;
+      background-color: #597eaa;
+    }
+    
+    main{
+      height: 150%;
+      width: 100%;
+    }
+    
+    header{
+      background-color: #085394;
+      height: 15%;
+      width: 100%;
+    }
+    
+    header p{
+      float: left;
+      margin-left: 2%;
+      margin-top: 2%;
+      color: white;
+    }
+    
+    #conteudo{
+      background-color: white;
+      height: 70%;
+      width: 80%;
+      border-radius: 25px;
+      padding: 20px;
+      margin-left: 115px;
+      margin-top: 10px;
+    }
+    #titulo{
+      font-size: 35px;
+      color: white;
+      font-weight: bold;
+      margin-left: 170px;
+      margin-top: 90px;
+    }
+    
+    #LogoPrincipal{
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      top: 25px;
+      margin-left: 45.8%;
+    }
+    #saia{
+      width: 40px;
+      height: 40px;
+      float: right;
+      margin: 10px;
+    
+    }
+    
+    #divisa{
+      
+      margin-left: 5%;
+      height: 1%;
+      width: 70%;
+      background-color: #597eaa;
+      border-radius: 20px;
+    }
+    #pesquisa{
+        width: 20px;
+        height: 17px;
+        margin-top: 4px;
+    }
+    #pesquisa:hover{
+        filter: brightness(100);
+        transition: 0.4s;
+    }
+    #botaoPesquisa{
+        border: 2px solid #597eaa;
+        border-radius: 0 20px 20px 0;
+        padding: 0 5px;
+        background-color: white;
+        margin-top: 15px;
+        position: relative;
+        top: 4px;
+        left: -5px;
+        border-left: none;
+    }
+    #botaoPesquisa:focus{
+        outline: 0;
+    }
+    #botaoPesquisa:hover{
+        border: 2px solid #70d0ef;
+        border-left: none;
+        background-color: #597eaa;
+        transition: 0.4s;
+    }
+    
+    legend{
+      color: #597eaa;
+      text-align: center;
+      margin-top: 15px;
+      font-size: 30px;
+    }
+    #txtUsuario{
+    border-radius: 0 20px 20px 0;
+    }
+    
+    #nome{
+        border-radius: 20px 0 0 20px;
+        padding: 4px 6px;
+        width: 170px;
+        border: 2px solid #597eaa;
+        margin-top: 50px;
+    margin-left: 0px;
+    
+    }
+    
+    select{
+      margin-left: 2%;
+    }
+    #nome:focus{
+        outline: 0;
+        transition: 0.3s;
+        border: 2px solid #70d0ef;
+    }
+
+    select:focus, input:focus{
+      outline: 0;
+      border: 2px solid #70d0ef;
+      transition: 0.4s;
+    }
+    
+    #pt1{
+      margin-left: 40px;
+    }
+    
+    #txtNome{
+      margin-left: 70px;
+  
+    }#txtUsuario{
+      margin-right: 10px;
+    }
+    #dados{
+        border: 2px solid #597eaa;
+        border-radius: 20px;
+        height: 200px;
+    }
+
+    
+    #registrar{
+      border: none;
+      background:    #93c47d;
+    border-radius: 1000px;
+    box-shadow:    0 3px #6aa84f;
+    padding:       7px 50px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 18px/1 "Calibri", sans-serif;
+    text-align:    center;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    float: right;
+    margin-right:50px;
+    
+    
+    }
+    table{
+      text-align: center;
+      width: 95%;
+      margin: 10px;
+      font-size: 18px;
+      margin-left: 20px;
+      border-radius: 22px;
+    }
+    
+    #th1{
+      border-radius: 20px 0 0 0}
+      #th10{
+        border-radius: 0 20px 0 0;}
+    
+        #td1{
+          border-radius: 0 0 0 20px;}
+          #td10{
+            border-radius: 0 0 20px 0;}
+    
+    #planoFundo{
+      background-color: #597eaa;
+      padding: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      width: 90%;
+      border-radius: 20px;
+      margin-left: 45px;
+      margin-top: 5px;
+  
+    
+    }
+    .buttonEditar{
+      border: none;
+      background-color: transparent;
+      margin-left: -33px;
+       
+    }
+    .buttonApagar{
+      border: none;
+      background-color: transparent;
+      margin-right: -33px;
+      margin-top: -30px;
+      
+      position: absolute;
+    }
+    .icons{
+      height: 25px;
+      width: 25px;
+    }
+    td,th{
+    border: 2px solid white;
+    padding: 2px 5px;
+    color: white;
+    }
+    #buscaField{
+      margin-top: 20px;
+      border: 2px solid #597eaa;
+        border-radius: 20px;
+        height: 400px;
+
+    }
+    th{
+    
+      background-color: white;
+      color: #597eaa;
+    }
+    
+    #registrar:hover{
+      background:    #93ce7d;
+    }
+    #barra{
+      margin-left: 30%;
+      
+    }
+    
+    label{
+      font-size: 22px;
+      margin: 10px;
+    
+    }
+    .textbox{
+       margin-top: 50px; 
+      
+      border-radius: 20px;
+      padding: 5px 10px;
+      border: 2px solid #adadad;
+      padding: 10px;
+   
+      font-size: 18px;
+      margin-left: 50px;
+    }
+    #txtOrcamento{
+      position: absolute;
+      margin-left: 109px;
+      margin-top: 25px;
+    }
+    #txtEntrega{
+      position:absolute;
+      margin-left: 300px;
+      margin-top: 25px;
+    }
+    #txtFuncionario{
+      position: absolute;
+      margin-left: 478px;
+      margin-top: 25px;
+    }
+    #nivel{
+      margin-top: 8px;
+      border-radius: 20px 10px 10px 20px;
+      padding: 10px;
+      width: 18%;
+      border: 2px solid #adadad;
+      font-family: arial,sans-serif;
+    }
+    option{
+      font-family: arial,sans-serif;
+    }
+    #orcamento{
+      margin-top: 30px;
+      margin-left: 100px;
+    }
+    
+    
+    #nivel:focus{
+      border: 2px solid #70d0ef;
+      transition: 0.4s;}
+    
+    #rodape{
+      height: 8%;
+      width: 80%;
+      background-color: #085394;
+      margin-left: 10%;
+      border-radius: 20px 20px 0 0;
+    }
+    

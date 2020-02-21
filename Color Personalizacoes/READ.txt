@@ -1,0 +1,12 @@
+Para manusear tal projeto é necessário conhecimento em:
+	HTML
+	CSS
+	Javascript
+	AJAX
+	PHP
+	SQL
+
+
+//Projeto atribuido pela rede de ensino Sesi Senai Norte
+
+Tenha um bom proveito!

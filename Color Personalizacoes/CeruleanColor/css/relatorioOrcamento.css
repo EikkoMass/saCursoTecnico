@@ -1,0 +1,349 @@
+@font-face {
+font-family: Staatliches;
+src: url('../fonts/Staatliches.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Staatliches", sans-serif;
+  color: #597eaa;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  background-color: #597eaa;
+}
+
+main{
+  height: 150%;
+  width: 100%;
+}
+
+header{
+  background-color: #085394;
+  height: 15%;
+  width: 100%;
+}
+
+header p{
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+  color: white;
+}
+
+#conteudo{
+  background-color: white;
+  height: 80%;
+  width: 80%;
+  border-radius: 25px;
+  padding: 20px;
+  margin-left: 115px;
+  margin-top: 10px;
+}
+#titulo{
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  margin-left: 170px;
+  margin-top: 90px;
+}
+
+#LogoPrincipal{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 25px;
+  margin-left: 45.8%;
+}
+#saia{
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 10px;
+
+}
+
+#divisa{
+  position: absolute;
+  margin-left: 5%;
+  height: 1%;
+  width: 70%;
+  background-color: #597eaa;
+  border-radius: 20px;
+}
+#pesquisa{
+    width: 20px;
+    height: 17px;
+    margin-top: 4px;
+}
+#pesquisa:hover{
+    filter: brightness(100);
+    transition: 0.4s;
+}
+#botaoPesquisa{
+    border: 2px solid #597eaa;
+    border-radius: 0 20px 20px 0;
+    padding: 0 5px;
+    background-color: white;
+    margin-top: 15px;
+    position: relative;
+    top: 4px;
+    left: -5px;
+    border-left: none;
+}
+#botaoPesquisa:focus{
+    outline: 0;
+}
+#botaoPesquisa:hover{
+    border: 2px solid #70d0ef;
+    border-left: none;
+    background-color: #597eaa;
+    transition: 0.4s;
+}
+
+legend{
+  color: #597eaa;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+}
+#txtUsuario{
+border-radius: 0 20px 20px 0;
+}
+
+#nome{
+    border-radius: 20px 0 0 20px;
+    padding: 4px 6px;
+    width: 170px;
+    border: 2px solid #597eaa;
+
+
+}
+
+select{
+  margin-left: 2%;
+}
+#nome:focus{
+    outline: 0;
+    transition: 0.3s;
+    border: 2px solid #70d0ef;
+}
+
+select:focus, input:focus{
+  outline: 0;
+  border: 2px solid #70d0ef;
+  transition: 0.4s;
+}
+
+
+#txtSenha, #txtCPF, #txtEmail{
+  width: 35%
+}
+#txtCPF{
+  margin-left: 20px;
+}
+
+
+
+#txtSenha{
+margin-left: 3px;
+}
+
+#pt1{
+  margin-left: 40px;
+}
+
+#txtNome{
+  margin-left: 2px;
+  border-radius: 20px 0 0 20px;
+}#txtUsuario{
+  margin-right: 10px;
+}
+
+#fieldfiltros{
+text-align: center;
+border-radius: 20px;
+border: 2px solid #597eaa;
+padding: 20px 1px;
+margin-top: 10px;
+margin-left: 200px;
+margin-right: 200px;
+}
+#fieldrelatorio{
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #597eaa;
+  padding: 20px 1px;
+  margin-top: 10px;
+  margin-left: 16px;
+  }
+
+#gerar{
+  border: none;
+  background:    #93c47d;
+border-radius: 1000px;
+box-shadow:    0 3px #6aa84f;
+padding:       7px 90px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 24px/1 "Calibri", sans-serif;
+text-align:    center;
+margin-left: 30px;
+margin-top: 30px;
+cursor: pointer;
+margin-left: 37%;
+}
+#gerarPdf{
+  border: none;
+  background:    #93c47d;
+border-radius: 1000px;
+box-shadow:    0 3px #6aa84f;
+padding:       7px 90px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 24px/1 "Calibri", sans-serif;
+text-align:    center;
+margin-left: 53px;
+margin-top: 30px;
+cursor: pointer;
+
+}
+
+#datasi, #datasf{
+  float: right;
+
+}
+#datas{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 20px 10px 10px 20px;
+
+}
+
+
+#datasf{
+  position: relative;
+  left: 300px;
+  margin-top: 10px;
+
+
+}
+
+#dtInicial, #dtFinal{
+  border: 2px solid #adadad;
+  font-family: arial,sans-serif;
+  border-radius: 20px;
+}
+
+#datasi{
+  position: relative;
+  left: 300px;
+
+}
+
+table{
+  text-align: center;
+  width: 95%;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 22px;
+
+}
+
+#voltar{
+      position: relative;
+    }
+
+#planoFundo{
+  background-color: #597eaa;
+  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 90%;
+  border-radius: 20px;
+  position: relative;
+  left: -140px;
+  margin-top: 50px;
+}
+
+td,th{
+border: 2px solid white;
+padding: 2px 5px;
+color: white;
+}
+
+th{
+
+  background-color: white;
+  color: #597eaa;
+}
+
+#registrar:hover{
+  background:    #93ce7d;
+}
+#barra{
+  margin-left: 30%;
+}
+
+label{
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+#cliente{
+  margin-top: 8px;
+  border-radius: 20px 10px 10px 20px;
+  padding: 10px;
+  width: 18%;
+  border: 2px solid #adadad;
+  font-family: arial,sans-serif;
+  margin-right: 300px;
+}
+#status{
+  margin-top: 8px;
+  border-radius: 20px 10px 10px 20px;
+  padding: 10px;
+  width: 18%;
+  border: 2px solid #adadad;
+  font-family: arial,sans-serif;
+  margin-right: 300px;
+}
+option{
+  font-family: arial,sans-serif;
+}
+
+#th1{
+  border-radius: 20px 0 0 0}
+  #th4{
+    border-radius: 0 20px 0 0;}
+
+    #td1{
+      border-radius: 0 0 0 20px;}
+      #td4{
+        border-radius: 0 0 20px 0;}
+
+#cliente:focus{
+  border: 2px solid #70d0ef;
+  transition: 0.4s;}
+  #status:focus{
+    border: 2px solid #70d0ef;
+    transition: 0.4s;}
+    #dtInicial:focus{
+      border: 2px solid #70d0ef;
+      transition: 0.4s;}
+      #dtFinal:focus{
+        border: 2px solid #70d0ef;
+        transition: 0.4s;}
+
+#rodape{
+  height: 8%;
+  width: 80%;
+  background-color: #085394;
+  margin-left: 10%;
+  border-radius: 20px 20px 0 0;
+}

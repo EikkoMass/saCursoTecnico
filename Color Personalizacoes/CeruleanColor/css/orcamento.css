@@ -1,0 +1,499 @@
+@font-face {
+font-family: Staatliches;
+src: url('../fonts/Staatliches.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Staatliches", sans-serif;
+  color: #597eaa;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  background-color: #597eaa;
+}
+
+main{
+  height: 170%;
+  width: 100%;
+}
+
+header{
+  background-color: #085394;
+  height: 15%;
+  width: 100%;
+}
+
+header p{
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+  color: white;
+}
+
+#conteudo{
+  background-color: white;
+  max-height: 95%;
+  min-height: 90%;
+  width: 80%;
+  border-radius: 25px;
+  padding: 20px;
+  margin-left: 115px;
+  margin-top: 10px;
+}
+#titulo{
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  margin-left: 170px;
+  margin-top: 90px;
+}
+
+#LogoPrincipal{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 25px;
+  margin-left: 45.8%;
+}
+#saia{
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 10px;
+}
+#desconto{
+  width: 80px;
+}
+
+.divisa{
+  position: absolute;
+  margin-left: 5%;
+  height: 1%;
+  width: 70%;
+  background-color: #597eaa;
+  border-radius: 20px;
+}
+
+
+
+
+.textbox{
+  font-family: arial, sans-serif;
+  color: black;
+  border-radius: 20px;
+  border: 2px solid #adadad;
+  padding:14px 10px ;
+  margin-top: 8px;
+}
+
+.date{
+  width: 48%;
+
+}
+
+.porcento{
+  width: 20%;
+  text-align: center;
+}
+.divisa{
+  position: absolute;
+  margin-left: 5%;
+  height: 1%;
+  width: 70%;
+  background-color: #597eaa;
+  border-radius: 20px;
+}
+
+#d1, #d2, #d3{
+  padding-left: 10px;
+}
+
+.geral{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+}
+
+select{
+  margin-left: 2%;
+}
+#nome:focus{
+    outline: 0;
+    transition: 0.3s;
+    border: 2px solid #70d0ef;
+}
+
+select:focus, input:focus{
+  outline: 0;
+  border: 2px solid #70d0ef;
+  transition: 0.4s;
+}
+
+table{
+  text-align: center;
+  width: 95%;
+  margin: 10px;
+  margin-left: 25px;
+  font-size: 18px;
+  border-radius: 22px;
+}
+
+#th1{
+  border-radius: 20px 0 0 0}
+  #th11{
+    border-radius: 0 20px 0 0;}
+
+#planoFundo{
+  background-color: #597eaa;
+  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 95%;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+#lefto{
+  margin-left: 60px;
+}
+td,th{
+border: 2px solid white;
+padding: 2px 5px;
+color: white;
+}
+td{
+  margin-left: 100px;
+}
+
+    #pesquisa{
+        width: 20px;
+        height: 17px;
+        margin-top: 4px;
+    }
+    #pesquisa:hover{
+        filter: brightness(100);
+        transition: 0.4s;
+    }
+    #botaoPesquisa{
+        border: 2px solid #597eaa;
+        border-radius: 0 20px 20px 0;
+        padding: 2px 7px;
+        background-color: white;
+        margin-top: 5px;
+        position: relative;
+        top: 6px;
+        left: -5px;
+        border-left: none;
+    }
+    #botaoPesquisa:focus{
+        outline: 0;
+    }
+    #botaoPesquisa:hover{
+        border: 2px solid #70d0ef;
+        border-left: none;
+        background-color: #597eaa;
+        transition: 0.4s;
+    }
+    #nome{
+        border-radius: 20px 0 0 20px;
+        padding: 4px 6px;
+        width: 170px;
+        border: 2px solid #597eaa;
+
+    }
+    #nome:focus{
+        outline: 0;
+        transition: 0.3s;
+        border: 2px solid #70d0ef;
+    }
+    #registrar{
+      border: none;
+      background:    #93c47d;
+    border-radius: 1000px;
+    box-shadow:    0 3px #6aa84f;
+    padding:       7px 90px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 24px/1 "Calibri", sans-serif;
+    text-align:    center;
+    margin-left: 170px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 37%;}
+th{
+
+  background-color: white;
+  color: #597eaa;
+}
+
+#registrar:hover{
+  background:    #93ce7d;
+}
+#barra{
+  margin-left: 25%;
+}
+
+.icons{
+  height: 25px;
+  width: 25px;
+}
+
+
+
+#barra{
+  margin-left: 30%;
+}
+.formato{
+  height: 20px;
+  width: 20px;
+}
+#editaform{
+
+
+ margin-left: 10px;
+  position: absolute;
+  margin-top: -10px;
+}
+#apagaform{
+
+ margin-left: 50px;
+ position: absolute;
+ margin-top: -20px;
+ margin-right: -20px;
+}
+
+
+
+
+.editar{
+
+}.apagar{
+
+}
+    .icons{
+      height: 20px;
+      width: 20px;
+    }
+
+.regisProduto{
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 50px;
+  padding-bottom: 15px;
+  padding-right: 0px;
+}
+
+.regisProduto:hover{
+  border: 2px solid #70d0ef;
+  transition: 0.3s;
+}
+
+    .buttonEditar, .buttonApagar{
+      border: none;
+      background-color: transparent;
+
+    }
+label{
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+button:focus{
+  outline: 0;
+}
+
+#nivel{
+  margin-top: 8px;
+  border-radius: 20px 10px 10px 20px;
+  padding: 10px;
+  width: 18%;
+  border: 2px solid #adadad;
+  font-family: arial,sans-serif;
+}
+option{
+  font-family: arial,sans-serif;
+
+}
+
+.quantitativo{
+  border-radius: 0  15px  15px 0;
+  width: 15%;
+}
+
+#nivel:focus{
+  border: 2px solid #70d0ef;
+  transition: 0.4s;}
+
+  #righto{
+    float: right;
+    position: absolute;
+    left: 60%;
+    top: 43%;
+  }
+  #numero, #cliente{
+    width: 24%;
+  }
+  #atendente{
+    width: 21.8%;
+  }
+
+#rodape{
+  height: 8%;
+  width: 80%;
+  background-color: #085394;
+  margin-left: 10%;
+  border-radius: 20px 20px 0 0;
+}
+#valorTotal{
+margin-left: 12%;
+
+}
+
+
+
+
+select{
+padding: 10px 10px;
+}
+.categoria{
+  border-radius:15px 0 0 15px;
+  margin-left: 8%;
+}
+.unitario{
+  border-radius: 0;
+}
+.produto{
+  border-radius: 0;margin-left: 0;
+}
+.descricao{
+  border-radius: 0;
+}
+
+.localEntrega, #desconto{
+  margin-left: 2%;
+}
+.rolagem{
+  overflow:scroll;height:200px;width:100%;overflow:auto;
+}
+.localEntrega{
+  width: 300px;
+  margin-bottom: 0px;
+}
+#cliente{
+  width: 300px;
+}
+.formDecimal{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+}
+#botaoAlerta{
+float: right;
+background-color: transparent;
+border-color: transparent;
+color: white;
+}
+.popupFinal{
+
+  position: fixed;
+   background-color: white;
+    height:85%;
+    width:78%;
+     Z-index: 99;
+      margin-right: 8%;
+      border-radius: 12px;
+      box-shadow: 0px 0px 300px 53px rgba(0,0,0,0.74);
+      margin-top: -16%;
+        display: none;
+}
+.popupFinal h2{
+  color: red;
+  font-size: 40px;
+  margin-top:5%;
+  text-align:center;
+}
+
+.popupFinal input{
+  height: 30%;
+  width: 30%;
+  font-size: 40px;
+  outline: none;
+margin-left: 2%;
+  border: none;
+  color: #204c80;
+
+}
+
+.reales{
+margin-left: 45%;
+font-size: 42px;
+color: #7aaac4;
+
+}
+.popupFinal p{
+  text-align: center;
+  font-size: 20px;
+
+
+}
+.popupFinal #pe{
+  margin-top: 3%;
+}
+.button{
+    padding: 2%;
+  width: 25%;
+  height: 15%;
+  font-size: 24px;
+  cursor: pointer;
+
+  text-align: center;
+}
+
+.button{
+margin-left: 8%;
+margin-top: 3%;
+}
+.botoes{
+  margin-left: 18%;
+}
+
+#confirm{
+  border: 3px solid #65d45f;
+  color: #65d45f;
+  background-color: white;
+  border-radius: 12px;
+
+
+}
+
+#wait{
+  border: 3px solid #cf2541;
+  color: #cf2541;
+  background-color: white;
+  border-radius: 12px;
+}
+
+#wait:hover{
+  transition: 0.4s;
+  border: 3px solid #990921;
+  color: white;
+  background-color: #990921;
+}
+#confirm:hover{
+  transition: 0.4s;
+  border: 3px solid #3bba34;
+  color: white;
+  background-color: #3bba34;
+}
+
+.apagaForm input{
+float: left;
+}

@@ -1,0 +1,408 @@
+@font-face {
+font-family: Staatliches;
+src: url('../fonts/Staatliches.ttf');
+}
+*{
+  padding: 0px;
+  margin:0px;
+  font-family: "Staatliches", sans-serif;
+  color: white;
+}
+iframe{
+  width: 400px;
+  height: 250px;
+}
+
+body,html{
+  width: 100%;
+  height: 100%;
+
+  background-color: #2a2a2a;
+}
+main{
+  height: 140%;
+  width: 100%;
+  background-image: linear-gradient(#459ec1, #459ec1, #4272bf) ;
+}
+
+#Logonav{
+left: 46.5%;
+top: 1px;
+position: fixed;
+animation-name: nav;
+animation-duration: 0.8s;
+animation-iteration-count: 1;
+}
+
+#imgLogonav{
+height: 75px;
+width: 75px;
+
+}
+
+@keyframes nav{
+  0%{
+    transform: rotateY(0deg);
+  }
+  100%{
+    transform: rotateY(360deg);
+  }
+}
+
+#insiraLogo{
+
+  height: 27%;
+  width: 18%;
+  position: absolute;
+  top: 84px;
+  left: 453px;
+  opacity: 0;
+
+}
+
+#insiraLogo:hover{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+header{
+  background-color: #fff3d6;
+  width: 100%;
+  height: 50%;
+
+}
+#log{
+  width: 93%;
+  height: 13%;
+  background-color: rgb(255, 255, 255, 0.8);
+  position:fixed;
+  float: left;
+  left: 4%;
+  border-radius:0 0 65% 65%;
+  border-bottom: 3px solid lightgrey;
+  z-index: 95;
+
+}
+footer{
+  height: 40%;
+  width: 100%;
+  background-color: #2a2a2a;
+  position: relative;
+
+
+}
+
+#barraMenu{
+  position: absolute;
+  height: 5%;
+  width: 100%;
+}
+
+#barraMenu ul a{
+  color:#FEAC5E;
+
+  list-style: none;
+  text-decoration-line: none;
+  padding: 35px;
+border-radius: 40px;
+
+font-size: 24px;
+text-transform: uppercase;
+}
+
+#aN{
+  width: 700%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#barraMenu ul a::before{
+  content: '';
+  display: block;
+  height: 8px;
+  width: 0%;
+  background-color: #FEAC5E;
+
+  border-radius: 50px;
+  position: absolute;
+  top: -30px;
+  transition: all ease-in-out 250ms;
+}
+#barraMenu ul a:hover::before{
+
+  width: 100%;
+  transition: 0.5s;
+}
+#barraMenu ul{
+position: relative;
+left: 1%;
+}
+
+#barraMenu li{
+  display: inline-block;
+  left: 24.2%;
+  position: relative;
+}
+
+#copy{
+  color: white;
+  text-align: center;
+  font-family: Staatliches;
+  width: 30%;
+  position: relative;
+  left: 33.5%;
+  top: -20px;
+}
+#Camada_1{
+  top: 160px;
+  position: relative;
+}
+#Camada_2{
+  position: relative;
+  top: 140px;
+}
+.textbox{
+  color: black;
+  font-family: arial;
+  height: 30px;
+  width: 20%;
+  border-radius: 30px;
+  border: 2px solid #adadad;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#mensagem{
+  color: black;
+  font-family: arial;
+  border-radius: 10px 10px 30px 30px;
+margin-left: 80px;
+  padding: 15px;
+  margin-top: 15px;
+  border: 2px solid #adadad;
+  height: 100px;
+  width: 250px;
+  resize: none;
+}
+
+#conteudo label{
+  color: #459EC1;
+
+}
+
+
+#campoNome, #campoEmail, #camposTelefone{
+  margin-bottom: 15px;
+}
+
+#email{ margin-left: 65px;}#nome{margin-left: 12px;}#telefone{margin-left: 47px;}
+#conteudoTitulo{
+  position: relative;
+  top: 15px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 30px 30px 0 0;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#email:focus, #nome:focus, #telefone:focus{
+  border: 2px solid #70d0ef;
+  transition: 0.3s;
+}
+#mensagem:focus{
+  border: 2px solid #70d0ef;
+  transition: 0.3s;
+}
+
+#conteudoTitulo1{
+  color: #459EC1;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+#divisao{
+  width: 8px;
+  height: 450px;
+  background-color: #459EC1;
+  position: relative;
+  border-radius: 60px;
+  left: 530px;
+  top: -470px;
+}
+
+#conteudoBox{
+  position: relative;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  z-index: 90;
+  height: 60%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 10px;
+}
+#conteudoFisico{
+position: relative;
+left: 630px;
+width: 30%;
+  top: -850px;
+}
+#conteudoFisico p{
+  color:  #459EC1;
+  font-size: 20px;
+}
+#conteudoFisico a{
+  color: #66ccf4;
+}
+
+#conteudoFisico iframe{
+  border: 2px solid #459EC1;
+  border-radius: 2px;
+}
+
+#conteudo{
+margin-left: 25px;
+position: relative;
+top: 50px;
+height: 90%;
+
+
+}
+textarea:focus, input:focus, select:focus, button:focus {
+    outline: 0;
+		/*Tira a borda azul quadrada automática de seleção*/
+}
+
+#enviar{
+  border: none;
+  background:    #93c47d;
+border-radius: 1000px;
+box-shadow:    0 3px #6aa84f;
+padding:       7px 100px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 24px/1 "Calibri", sans-serif;
+text-align:    center;
+margin-left: 40px;
+cursor: pointer;
+}
+
+form{
+  margin-left: 60px;
+}
+#assunto{
+  color: black;
+ margin-left: 55px;
+ height: 35px;
+ width: 230px;
+}
+.opcao{
+  color: black;
+}
+#txtMensagem{
+position: absolute;
+margin-top: 20px;
+}
+#enviar:hover{
+  background-color: #9dd385;
+  transition: 0.2s;
+}
+#interfaceRodape{
+  margin-left: 150px;
+  position: relative;
+  top: 20px;
+
+}
+#interfaceRodape li{
+  position: relative;
+  list-style: none;
+
+}
+#interfaceRodape a{
+  font-size: 20px;
+text-decoration-line: none;
+}
+
+#interfaceRodape a:hover{
+  color: #fff3d6;
+  transition: 0.3s;
+}
+
+#redesSociais{
+  background-color: #303030;
+  width: 18%;
+  position: relative;
+  left: 39.5%;
+  top: -100px ;
+  border-radius: 40px;
+
+}
+#redesSociais ul{
+padding: 8px;
+left: 10px;
+position: relative;
+
+}
+#redesSociais ul a{
+  padding: 17px;
+  border: 3px solid #2a2a2a;
+  border-radius: 35px;
+  text-decoration-line: none;
+
+}
+.fa {
+  padding: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60%;
+  background-color: #2a2a2a;
+}
+.fa-facebook:hover{
+  background-color: #3B5998;
+  transition: 0.5s;
+}
+.fa-twitter:hover{
+  background-color: #4BC0C8;
+  transition: 0.5s;
+}
+.fa-instagram:hover{
+  background-color: #D0298F;
+  transition: 0.5s;
+}
+
+#imgLogin{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  padding: 5px;
+  left: 42px;
+  top: 3px;
+
+  background-color: transparent;
+}
+
+#LoginEditor{
+  background-color: #383838;
+  border-radius: 0 0 30px 30px;
+  width: 9%;
+  position: relative;
+  top: -100px;
+  left: 595px;
+}
+
+#interfaceRodape3{
+  float: right;
+  position: relative;
+  top: -240px;
+  left: -140px;
+}
+
+#imgCel{
+  position: relative;
+  padding-top: 10px;
+  height: 60%;
+  width: 60%;
+}
+#redesSociais li{
+  list-style: none;
+  display: inline-block;
+}

@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Staatliches;
+    src: url('../fonts/Staatliches.ttf');
+    }
+
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: "Staatliches", sans-serif;
+      color: #597eaa;
+    }
+
+    html, body{
+      width: 100%;
+      height: 100%;
+      background-color: #597eaa;
+    }
+
+    main{
+      height: 78%;
+      width: 100%;
+    }
+
+    header{
+      background-color: #085394;
+      height: 15%;
+      width: 100%;
+    }
+
+    header p{
+      float: left;
+      margin-left: 2%;
+      margin-top: 2%;
+      color: white;
+    }
+
+    .imgs{
+      width: 150px;
+      height: 150px;
+      margin-top: 80px;
+
+    }
+    #LogoPrincipal{
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      top: 25px;
+      margin-left: 45.8%;
+    }
+    #saia{
+      width: 40px;
+      height: 40px;
+      float: right;
+      margin: 10px;
+
+    }
+    h2{
+        color: white;
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 35px;
+    }
+
+    #fieldset{
+        height: 950px;
+        width: 90%;
+        margin: 20px;
+        border-radius: 25px;
+        border: 2px solid white;
+        background-color: #ededed;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    #voltar{
+      position: relative;
+      left: -160px;
+    }
+
+    a{
+color: 	#6495ED;
+
+    }
+
+    #selo{
+      width: 150px;
+      height: 150px;
+      transform: rotate(350deg);
+      float: right;
+      margin-right: 15%;
+    }
+    #infoBase{
+        width: 1315px;
+        height: 100px;
+        background-color: #597eaa;
+        border-radius: 30px;
+        margin: -5px;
+
+    }
+    #idOrdem, #dataInicio, #certificado{
+      color: #bcbcbc;
+        padding:10px;
+    }
+
+#logoOrdem{
+  width: 100px;
+  height: 100px;
+
+  float: left;
+  margin-left: 60px;
+  margin-top: 5%;
+}
+
+#idOrdem{
+float: right;
+margin-right: 50px;
+margin-top: 5%;
+}
+
+#dataInicio{
+float: left;
+  margin-top: 5%;
+
+}
+
+
+#certificado{
+  position: relative;
+  float: left;
+  margin-top: 7%;
+  margin-right: 10%;
+  left: -150px;
+}
+
+#conteudoReal{
+margin-top: 15%;
+margin-left: 5%;
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+#documento{
+background-color: white;
+margin: 20px 10px;
+width: 80%;
+height: 90%;
+margin-left: 10%;
+box-shadow: 3px 6px 31px -6px rgba(0,0,0,0.68);
+}
+
+
+
+    #rodape{
+      height: 8%;
+      width: 80%;
+      background-color: #085394;
+      position: fixed;
+      margin-left: 10%;
+      border-radius: 20px 20px 0 0;
+    }

@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Staatliches;
+    src: url('../fonts/Staatliches.ttf');
+    }
+body, html{
+    margin:0;
+    background-color: #459ec1;
+}
+#login{
+    width: 45%;
+    height:400px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 375px;
+    margin-top: 150px;
+}
+.textbox{
+    color: black;
+    font-family: arial;
+    height: 20px;
+    width: 20%;
+    border-radius: 30px;
+    border: 2px solid #adadad;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#campo_senha{
+
+    width: 100%;
+
+}
+
+#campo_login, #campo_senha{
+    text-align: center;
+    margin-top: 5%;
+}
+#campo_login{
+    margin-top: 40px;
+}
+#text{
+    margin-top: 75px;
+}
+input:focus, select:focus, button:focus {
+    outline: 0;
+		/*Tira a borda azul quadrada automática de seleção*/
+}
+.textbox:focus{
+    border: 2px solid #70d0ef;
+    transition: 0.3s;
+}
+h2{
+    text-align: center;
+    padding-top: 50px;
+    font-family: Staatliches;
+    color: #459EC1;
+}
+label{
+   font-family: Staatliches;
+   color: #459EC1;
+   font-size: 20PX;
+}
+#enviar{
+    border: none;
+    background:    #93c47d;
+  border-radius: 1000px;
+  box-shadow:    0 3px #6aa84f;
+  padding:       7px 90px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 24px/1 "Calibri", sans-serif;
+  text-align:    center;
+  margin-left: 170px;
+  margin-top: 50px;
+  cursor: pointer;
+  }
+  #img{
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      top: 45px;
+      left: 44.35%;
+  }
+  #alerta{
+    margin-left: 100px;
+  }
+  #eye{
+    width: 5.5%;
+    height:5%;
+  border: 2px solid #adadad;
+  border-left: none;
+  border-radius: 0 15px 15px 0;
+  padding: 0.8% 1.5%;
+margin-right: 15%;
+cursor: pointer;
+float: left;
+  }
+
+#eye:hover{
+      border: 2px solid #70d0ef;
+        border-left: none;
+        transition: 0.3s;
+
+}
+  #mostraSenha{
+    width: 5%;
+    height:5%;
+    padding: 0.5%;
+    margin: 0;
+
+    margin-right: 20%;
+  }
+  #senha{
+    border-right: none;
+    border-radius: 15px 0 0 15px;
+    float: left;
+    width: 32%;
+  }
+  #totallypass{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float:left;
+margin-left: 2%;
+  }
+  #labelsenha{
+    float: left;
+  }
+  #campo_senha{
+    margin-left: 33%;
+  }

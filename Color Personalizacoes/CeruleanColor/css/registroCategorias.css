@@ -1,0 +1,331 @@
+@font-face {
+    font-family: "Staatliches";
+    src: url('../fonts/Staatliches.ttf');
+    }
+
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: "Staatliches", sans-serif;
+      color: #597eaa;
+    }
+
+    html, body{
+      width: 100%;
+      height: 100%;
+      background-color: #597eaa;
+    }
+
+    main{
+      height: 78%;
+      width: 100%;
+    }
+
+    header{
+      background-color: #085394;
+      height: 15%;
+      width: 100%;
+    }
+
+    header p{
+      float: left;
+      margin-left: 2%;
+      margin-top: 2%;
+      color: white;
+    }
+
+    #voltar{
+      position: relative;
+      left: 10px;
+    }
+
+
+    .locais{
+      width: 18%;
+      height:370px;
+      background-color: white;
+      border-radius: 20px;
+      margin: 10px;
+      margin-top: 50px;
+      float: left;
+      border: 3px solid white;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.1);
+    text-align: center;
+    }
+
+    .locais p{
+      margin-top: 40px;
+      font-size: 28px;
+    }
+
+    .locais:hover{
+      border: 3px solid rgb(172, 208, 249, 0.8);
+      transition: 0.4s;
+      background-color: #f2f2f2;
+    }
+
+    #aordem{
+      margin-left: 30px;
+    }
+
+    .imgs{
+      width: 150px;
+      height: 150px;
+      margin-top: 80px;
+
+    }
+    #LogoPrincipal{
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      top: 25px;
+      margin-left: 45.8%;
+    }
+    #saia{
+      width: 40px;
+      height: 40px;
+      float: right;
+      margin: 10px;
+
+    }
+
+    #local1{
+        margin-left: 152px;
+    }
+
+
+
+    h2{
+        color: white;
+        margin-left: 260px;
+        margin-top: 50px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    label{
+        color:#597eaa;
+        margin-left: 10px;
+        font-size: 20px;
+        margin-left: 15%;
+    }
+    .caixas{
+        border-radius: 45px;
+        padding: 4px 10px;
+        width: 340px;
+        border: 2px solid #adadad;
+        margin-top: 25px;
+        margin-right: 70px;
+        margin-left: 15px;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        color: black;
+
+    }
+    .caixas:focus{
+        outline: 0;
+        transition: 0.3s;
+        border: 2px solid #70d0ef;
+    }
+    #pesquisa{
+      width: 20px;
+      height: 20px;
+      margin-top: 5px;
+    }
+
+
+    #fieldset{
+      width: 800px;
+      height: 700px;
+
+      margin-left: 280px;
+      border-radius: 25px;
+      border: 2px solid white;
+      background-color: white;
+    }
+    #nome{
+      margin-left: 48px;
+      width: 50%;
+    }
+    .estilotextarea {
+      width:80px;
+      height:50px;
+      border: 2px solid #adadad;
+    }
+    #descreve{
+      resize: none;
+      width: 400px;
+      height: 100px;
+      border-radius: 20px;
+      border: 2px solid #adadad;
+      padding: 10px;
+      margin-left: 220px;
+      font-family: Arial, sans-serif;
+        color: black;
+      margin-top: -30px;
+      margin-bottom: 10px;
+    }
+
+    #descricao{
+      margin-top: 10px;
+    }
+    #descreve:focus{
+        outline: 0;
+        transition: 0.3s;
+        border: 2px solid #70d0ef;
+    }
+    #registrar{
+        border: none;
+        background:    #93c47d;
+      border-radius: 1000px;
+      box-shadow:    0 3px #6aa84f;
+      padding:       7px 90px;
+      color:         #ffffff;
+      display:       inline-block;
+      font:          normal bold 24px/1 "Calibri", sans-serif;
+      text-align:    center;
+      cursor: pointer;
+      margin-left: 260px;
+      margin-top: 10px;
+      }
+      #registrar:hover{
+          background: #93ce7d;
+      }
+
+      #divisa{
+        position: absolute;
+        left: 31%;
+        margin-top: 20px;
+        height: 1%;
+        width: 39%;
+        background-color: #597eaa;
+        border-radius: 20px;
+      }
+      #barra{
+        margin-left: 5%;
+      }
+
+      #cat{
+        border-radius: 20px 0 0 20px;
+        padding: 4px 6px;
+        width: 170px;
+        border: 2px solid #597eaa;
+        margin-top: 50px;
+    margin-left: 0px;
+
+    }
+    #cat:focus{
+      outline: 0;
+      transition: 0.3s;
+      border: 2px solid #70d0ef;
+  }
+  #botaoPesquisa{
+    border: 2px solid #597eaa;
+    border-radius: 0 20px 20px 0;
+    padding: 0 5px;
+    background-color: white;
+    margin-top: 15px;
+    position: relative;
+    top: 4px;
+    left: -5px;
+    border-left: none;
+}
+#botaoPesquisa:focus{
+    outline: 0;
+}
+#botaoPesquisa:hover{
+    border: 2px solid #70d0ef;
+    border-left: none;
+    background-color: #597eaa;
+    transition: 0.4s;
+}
+      #planoFundo{
+        background-color: #597eaa;
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 90%;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 4%;
+      }
+      #fieldrelatorio{
+        text-align: center;
+        border-radius: 20px;
+        border: 2px solid #597eaa;
+        padding: 10px;
+
+        }
+        td,th{
+          border: 2px solid white;
+          padding: 5px 16px;
+          color: white;
+
+          }
+          #pesquisa{
+            width: 20px;
+            height: 17px;
+            margin-top: 4px;
+        }
+        #pesquisa:hover{
+            filter: brightness(100);
+            transition: 0.4s;
+        }
+          th{
+
+            background-color: white;
+            color: #597eaa;
+          }
+          #th1{
+            border-radius: 20px 0 0 0}
+            #th4{
+              border-radius: 0 20px 0 0;}
+
+              #td1{
+                border-radius: 0 0 0 20px;}
+                #td4{
+                  border-radius: 0 0 20px 0;}
+                  .formato{
+                    height: 20px;
+                    width: 20px;
+                  }
+                  #apagaform1, #apagaform2{
+                    float: right;
+                    margin-right: 5px;
+                  }
+
+                  #editaform1, #editaform2{
+                    float: left;
+                    margin-left: 5px;
+                  }
+                      .icons{
+                        height: 20px;
+                        width: 20px;
+                      }
+
+                      .buttonEditar, .buttonApagar{
+                        border: none;
+                        background-color: transparent;
+
+                      }.buttonEditar{
+                        float: left;
+                        margin-left: -15px;
+                      }.buttonApagar{
+                        float: right;
+                        margin-right: -18px;
+                      }
+
+      #rodape{
+        height: 8%;
+        width: 80%;
+        background-color: #085394;
+        margin-left: 10%;
+        margin-top: 20px;
+        border-radius: 20px 20px 0 0;
+      }
+      #exibeAlerta{
+        margin-left: 20%;
+        color: white;
+      }
+      #alerta p{
+        color: white;
+      }

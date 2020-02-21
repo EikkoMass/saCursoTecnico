@@ -1,0 +1,98 @@
+@font-face {
+font-family: Staatliches;
+src: url('../fonts/Staatliches.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Staatliches", sans-serif;
+  color: #597eaa;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  background-color: #597eaa;
+}
+
+main{
+  height: 78%;
+  width: 100%;
+}
+
+header{
+  background-color: #085394;
+  height: 15%;
+  width: 100%;
+}
+
+header p{
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+  color: white;
+}
+
+
+.locais{
+  width: 18%;
+  height:370px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px;
+  margin-top: 50px;
+  float: left;
+  border: 3px solid white;
+box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.locais p{
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+.locais:hover{
+  border: 3px solid rgb(172, 208, 249, 0.8);
+  transition: 0.4s;
+  background-color: #f2f2f2;
+}
+
+#aordem{
+  margin-left: 30px;
+}
+
+.imgs{
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+
+}
+#LogoPrincipal{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 25px;
+  margin-left: 45.8%;
+}
+#saia{
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 10px;
+
+}
+
+#local1{
+    margin-left: 152px;
+}
+
+#rodape{
+  height: 8%;
+  width: 80%;
+  background-color: #085394;
+  position: fixed;
+  margin-left: 10%;
+  border-radius: 20px 20px 0 0;
+}

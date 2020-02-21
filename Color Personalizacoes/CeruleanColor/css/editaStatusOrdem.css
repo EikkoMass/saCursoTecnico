@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Staatliches;
+    src: url('../fonts/Staatliches.ttf');
+    }
+
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: "Staatliches", sans-serif;
+      color: #597eaa;
+    }
+
+    html, body{
+      width: 100%;
+      height: 100%;
+      background-color: #597eaa;
+    }
+
+    main{
+      height: 78%;
+      width: 100%;
+    }
+
+    header{
+      background-color: #085394;
+      height: 15%;
+      width: 100%;
+    }
+
+    header p{
+      float: left;
+      margin-left: 2%;
+      margin-top: 2%;
+      color: white;
+    }
+
+    .imgs{
+      width: 150px;
+      height: 150px;
+      margin-top: 80px;
+
+    }
+    #LogoPrincipal{
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      top: 25px;
+      margin-left: 45.8%;
+    }
+    #saia{
+      width: 40px;
+      height: 40px;
+      float: right;
+      margin: 10px;
+
+    }
+    .salvar{
+      background:    #6fa8dc;
+border-radius: 1000px;
+padding:       8px 40px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 24px/1 "Calibri", sans-serif;
+text-align:    center;
+margin-left: 450px;
+margin-top: 50px;
+border: 2px solid white;
+    }
+    #status{
+      border-radius: 16px;
+      padding: 5px;
+    }
+    #olho{
+      width: 15px;
+      height: 15px;
+    }
+    .visualizar{
+      background-color: transparent;
+      border: none;
+    }
+    h2{
+        color: white;
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    label{
+        color:#597eaa;
+        margin-left: 200px;
+        font-size: 20px;
+        top: 2px;
+        position: relative;
+    }
+    #voltar{
+      position: relative;
+
+    }
+    #nome{
+        border-radius: 20px 0 0 20px;
+        padding: 4px 6px;
+        width: 170px;
+        border: 2px solid #597eaa;
+        font-family: Arial;
+        color: black;
+
+    }
+    #nome:focus{
+        outline: 0;
+        transition: 0.3s;
+        border: 2px solid #70d0ef;
+    }
+
+    #pesquisa{
+        width: 20px;
+        height: 15px;
+        margin-top: 4px;
+    }
+    #pesquisa:hover{
+        filter: brightness(100);
+        transition: 0.4s;
+    }
+    #botaoPesquisa{
+        border: 2px solid #597eaa;
+        border-radius: 0 20px 20px 0;
+        padding: 0 5px;
+        background-color: white;
+        margin-top: 15px;
+        position: relative;
+        top: 3px;
+        left: -5px;
+        border-left: none;
+    }
+    #botaoPesquisa:focus{
+        outline: 0;
+    }
+    #botaoPesquisa:hover{
+        border: 2px solid #70d0ef;
+        border-left: none;
+        background-color: #597eaa;
+        transition: 0.4s;
+    }
+    #fieldset{
+        height:  400px;
+        margin: 20px;
+        border-radius: 25px;
+        border: 2px solid white;
+        background-color: white;
+    }
+    #linha{
+        height: 1%;
+        width: 80%;
+        background-color: #597eaa;
+        border-radius: 20px;
+        margin-left: 120px;
+    }
+
+    #th1{
+        border-radius: 20px 0 0 0;
+        border-top: 2px solid white;
+    }
+    #th5{
+        border-radius: 0 20px 0 0px;
+        border-top: 2px solid white;
+    }
+    #tabela{
+        margin-left: 100px;
+        border-radius: 25px;
+        height: 200px;
+        width: 80%;
+        padding: 20px;
+
+    }
+    .thborder{
+        color: #597eaa;
+        border: 2px solid white;
+        padding: 10px;
+    }
+    #cabeca, #corpo{
+        border-left: 100px;
+    }
+    .tdborder{
+        color: white;
+        text-align: center;
+        border: 2px solid white;
+        border-top: none;
+        font-size: 15px;
+    }
+
+    #planoFundo{
+        background-color: #597eaa;
+        border-radius: 20px;
+        height: 210px;
+        width: 80%;
+        margin-left: 120px;
+    }
+    th{
+        background-color: white;
+        color: #597eaa;
+    }
+    #cape{
+      background-color: white;
+      width: 80%;
+      margin-left: 130px;
+      border-radius: 15px;
+      padding: 20px;
+    }
+
+    #rodape{
+      height: 8%;
+      width: 80%;
+      background-color: #597eaa;
+      position: fixed;
+      margin-left: 10%;
+      border-radius: 20px 20px 0 0;
+    }
+    #salvar{
+        border: none;
+      background:    #93c47d;
+border-radius: 1000px;
+padding:       8px 30px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal normal 29px/1 "Calibri", sans-serif;
+text-align:    center;
+margin-left: 42%;
+
+
+    }
+
+    #salvar:hover{
+
+      background: #a8de90;
+      transition: 0.4s;
+
+
+    }

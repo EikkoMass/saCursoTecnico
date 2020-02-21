@@ -1,0 +1,45 @@
+<style>
+@font-face {
+font-family: Staatliches;
+src: url('../fonts/Staatliches.ttf');
+}
+#alerta{
+  width: 400px;
+  height: 40px;
+  background-color: #fcd93d;
+  border-radius: 12px;
+  border: 2px solid #fad841;
+  font-size: 18px;
+  font-family: "Staatliches", sans-serif;
+  text-align: center;
+  color: white;
+
+}
+#botaoAlerta{
+float: right;
+background-color: transparent;
+border-color: transparent;
+color: white !important;
+}
+p{
+  margin: 10px;
+  padding: 0;
+
+}
+
+
+</style>
+<script>
+function fecharAlerta(){
+var alerta = document.getElementById("exibeAlerta");
+alerta.parentNode.removeChild(alerta);
+}
+</script>
+
+<div id="exibeAlerta">
+  <div id="alerta">
+    <button type="button" id="botaoAlerta" onclick="fecharAlerta()">X</button>
+  <p>Categoria Já Cadastrada!</p>
+
+  </div>
+</div>
