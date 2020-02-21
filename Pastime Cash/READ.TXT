@@ -1,0 +1,9 @@
+Para usar de tal projeto é necessário conhecimento em:
+
+  JAVA
+  
+  //Projeto aplicado pela rede de ensino Sesi Senai Norte
+    Objetivo do projeto era criar um sistema de recomendação de lugares para praticar hobbies, hobbies esses podendo ser selecionados por
+    quiz interno do software, projeto sendo aplicado apenas em puro java, sem auxílio de banco de dados.
+    
+    Tenha um bom proveito!
