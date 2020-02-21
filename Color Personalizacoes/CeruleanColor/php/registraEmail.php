@@ -18,8 +18,8 @@ $mail-> Host='smtp.gmail.com';
 $mail-> Port=587;
 $mail-> SMTPSecure='tls';
 $mail-> SMTPAuth=true;
-$mail-> Username="email.color.personalizacoes@gmail.com";
-$mail-> Password="color12345";
+$mail-> Username="email.seuemail@gmail.com";
+$mail-> Password="senhadoemail";
 $mail-> setFrom("$email", "E-mail do Sistema");
 $mail-> addAddress("$email");
 $mail-> Subject="assunto - ".$assunto;
@@ -42,10 +42,10 @@ $mail-> Host='smtp.gmail.com';
 $mail-> Port=587;
 $mail-> SMTPSecure='tls';
 $mail-> SMTPAuth=true;
-$mail-> Username="email.color.personalizacoes@gmail.com";
-$mail-> Password="color12345";
-$mail-> setFrom("email.color.personalizacoes@gmail.com", "E-mail do Sistema");
-$mail-> addAddress("email.color.personalizacoes@gmail.com");
+$mail-> Username="email.seuemail@gmail.com";
+$mail-> Password="senhadoemail";
+$mail-> setFrom("email.seuemail@gmail.com", "E-mail do Sistema");
+$mail-> addAddress("email.seuemail@gmail.com");
 $mail-> Subject="assunto - ".$assunto;
 $mail-> msgHTML("
 <fieldset>
