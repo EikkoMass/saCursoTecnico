@@ -6,9 +6,11 @@ Para manusear tal projeto é necessário conhecimento em:
 	PHP
 	SQL
 
-//Sistema pode estar sujeito a problemas com responsividade por parte back-end ter sido aplicada após a parte front-end!
+//Site pode estar sujeito a problemas com responsividade por parte back-end ter sido aplicada após a parte front-end!
 
 //Projeto atribuido pela rede de ensino Sesi Senai Norte
 	O objetivo do projeto seria automatizar o processo de produção de uma estamparia fictícia denominada 'Color Personalizações' 
+
+//senhas protegidas por criptografia MD5 // Senha padrão de todas as contas do banco de dados seria "12345"
 
 Tenha um bom proveito!
