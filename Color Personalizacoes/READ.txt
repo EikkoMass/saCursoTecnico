@@ -6,6 +6,7 @@ Para manusear tal projeto é necessário conhecimento em:
 	PHP
 	SQL
 
+//Sistema pode estar sujeito a problemas com responsividade por parte back-end ter sido aplicada após a parte front-end!
 
 //Projeto atribuido pela rede de ensino Sesi Senai Norte
 	O objetivo do projeto seria automatizar o processo de produção de uma estamparia fictícia denominada 'Color Personalizações' 
