@@ -141,7 +141,7 @@ while($cadaItem=mysqli_fetch_assoc($resultado)){
   <label for="localEntrega">Local de Entrega</label>
   <input type="text" name="localEntrega" id="localEntrega" class="textbox" placeholder="Local de Entrega*" value="<?=$tudoOrcamento["local"];?>"><br>
   <label for="cesconto">Desconto</label>
-  <input type="text" name="desconto" id="desconto" placeholder="Desconto %" class="textbox porcento" value="<?=parseInt($tudoOrcamento["desconto"]);?>">
+  <input type="text" name="desconto" id="desconto" placeholder="Desconto %" class="textbox porcento" value="<?=$tudoOrcamento["desconto"];?>">
 
   <div id="righto"><label for="parcelas">Parcelas</label>
   <select id="parcelas" name="parcelas" class="textbox">
